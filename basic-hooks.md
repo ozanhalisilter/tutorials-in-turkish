@@ -10,7 +10,7 @@ Temel olarak hook kullanımını `useState` hooku ile göstermeye başlayabiliri
 
 Örnek: `useState` kullanımı
 
-```
+```javascript
 import React, { useState } from 'react';
 
 function Example() {
@@ -37,7 +37,7 @@ function Example() {
 
 Örnek: Birden fazla `useState` kullanımı:
 
-```
+```javascript
 const [count, setCount] = useState(0);
 const [todos, setTodo] = useState('');
 const [names, setName] = useState('Mehmet Eyüpoğlu');
@@ -53,7 +53,7 @@ Bir react bileşeninin ekrana yüklenmesine ya da mevcut arayüzün güncellenme
 
 `useEffect` özellikle bir apiden veri çekme işlemlerinde oldukça işe yarar.
 
-```
+```javascript
 import React, { useEffect } from 'react';
 
 
